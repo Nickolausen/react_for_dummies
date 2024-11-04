@@ -1,4 +1,4 @@
-# React for dummies
+# React for Dummies
 ## Istituto Tecnico Tecnologico 'Blaise Pascal' @ Cesena, IT
 
 ### Informazioni tecniche
@@ -10,6 +10,19 @@
 #### [1] Introduzione a React, richiami di concetti base del Web Development
 
 Quali sono gli unici linguaggi front-end che un browser può "capire": HyperText Markup Language, Cascading Style Sheet e JavaScript.
+Rapidi esempi del loro effetto. Il principio D.R.Y.: Don't Repeat Yourself. Perchè la programmazione con solo HTML, CSS e JavaScript vìola suddetto principio.
 
 Web frameworks: crescita esponenziale negli ultimi anni, più di 100 frameworks al momento in circolazione ma solo alcuni godono di tanta popolarità.
 
+React: libreria per lo sviluppo di applicazioni web. Differenza **framework** vs. **libreria**. Feature di React: componenti, hooks, routing.
+Presentazione del progetto guida: **ReAuction**, casa d'aste per installazioni artistiche di Alberto Timossi - rivisitazione di un vecchio progetto 'Astazor'. Aspetti tecnici del progetto: gestione componenti, routing e interazione con API esterna (utilizzo di FlickrAPI per ottenimento immagini da servizio esterno).
+
+Setup del progetto: inizializzazione con Vite di un template React + JavaScript, sguardo alla struttura del progetto: le cartelle `node_modules/`, `public/` e `src/`. Sguardo alla struttura tipo di un componente - analisi di `App.jsx`.
+Installazione di Bootstrap via npm.
+
+#### [2] Componenti
+Componenti **funzionali** in React: JSX - JavaScript eXtension, mix di linguaggio markup e codice JavaScript. 
+
+Naming convention Regole per la scrittura di markup in JSX, regole per la scrittura di JavaScript in JSX, passaggio di Props da componente padre a componente figlio. 
+
+Thinking in React: i 5 passi necessari per strutturare una web application in React.
