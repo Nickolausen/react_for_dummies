@@ -7,6 +7,7 @@
 - tenuto da: Nicholas Magi, <nicholas.magi24[@]gmail.com>
 
 ### Contenuti del corso
+---
 #### [1] Introduzione a React, richiami di concetti base del Web Development
 
 Quali sono gli unici linguaggi front-end che un browser può "capire": HyperText Markup Language, Cascading Style Sheet e JavaScript.
@@ -20,6 +21,7 @@ Presentazione del progetto guida: **ReAuction**, casa d'aste per installazioni a
 Setup del progetto: inizializzazione con Vite di un template React + JavaScript, sguardo alla struttura del progetto: le cartelle `node_modules/`, `public/` e `src/`. Sguardo alla struttura tipo di un componente - analisi di `App.jsx`.
 Installazione di Bootstrap via npm.
 
+---
 #### [2] Componenti
 Componenti **funzionali** in React: JSX - JavaScript eXtension, mix di linguaggio markup e codice JavaScript. 
 
