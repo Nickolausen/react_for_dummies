@@ -23,7 +23,7 @@ Installazione di Bootstrap via npm.
 
 ---
 #### [2] Componenti
-Componenti **funzionali** in React: JSX - JavaScript eXtension, mix di linguaggio markup e codice JavaScript. 
+Componenti **funzionali** in React: JSX - JavaScript eXtension, mix di HTML e codice JavaScript. 
 
 Naming convention Regole per la scrittura di markup in JSX, regole per la scrittura di JavaScript in JSX, passaggio di Props da componente padre a componente figlio. 
 
@@ -34,3 +34,9 @@ Thinking in React: i 5 passi necessari per strutturare una web application in Re
 ---
 #### [3] Routing
 React: progettazione di S.P.A. di default. Routing non supportato nativamente. `react-router-dom`: libreria esterna per gestire il routing di una web app React.
+[...]
+
+---
+#### [4] Gestione API esterna
+Utilzzo di FlickAPI per ottenere immagini salvate in uno storage esterno.
+[...]
