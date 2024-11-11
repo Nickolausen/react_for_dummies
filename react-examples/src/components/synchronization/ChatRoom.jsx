@@ -30,13 +30,13 @@ export default function ChatRoom({ roomId }) {
     }, [ roomId ])
 
     return <>
-        <div style={{ height: "fit-content"}} className="col-6 text-center d-flex flex-column align-items-center">
+        <div style={{ height: "fit-content"}} className="col-6 text-center d-flex flex-column align-items-center pt-5">
             <h3 className="display-6">
                 Welcome to <span className="fw-bold">{roomId}</span>!    
             </h3>
             <hr className="w-50 my-0"/>
         </div>
-        <div className="col-6">
+        <div className="col-6 pt-5">
             <MyConsole>
                 { messages }
             </MyConsole>

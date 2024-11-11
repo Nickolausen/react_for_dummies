@@ -12,22 +12,25 @@ export default function Synchronization()
         </div>
         <div className="row w-100 px-5">
             <div className="col-12 d-flex justify-content-center">
-                <button className="btn btn-primary my-5" onClick={() => { setMountComponent(!mountComponent) }}>
-                   { mountComponent ? "Nascondi" : "Mostra" } Componente
+                <button className="btn btn-primary mt-3 mb-5" onClick={() => { setMountComponent(!mountComponent) }}>
+                   { mountComponent ? "Nascondi" : "Mostra" } componente
                 </button>
             </div>
-            <div className="col-12">
-                <div className="d-flex justify-content-center pb-4">
-                    <select style={{ height: 30 + "px", minWidth: 200 + "px"}} value={roomId} onChange={(e) => setRoomId(e.target.value)}>
-                        <option value={"General"}>General</option>
-                        <option value={"F.A.Q."}>F.A.Q.</option>
-                        <option value={"Gaming"}>Gaming</option>
-                    </select>
+            { mountComponent && 
+                <div className="col-12">
+                    <div className="d-flex gap-3 align-items-center justify-content-center pb-4">
+                        <label htmlFor="roomIdSelection">Scegli la tua stanza:</label>
+                        <select id="roomIdSelection" style={{ height: 30 + "px", minWidth: 200 + "px"}} value={roomId} onChange={(e) => setRoomId(e.target.value)}>
+                            <option value={"General"}>General</option>
+                            <option value={"F.A.Q."}>F.A.Q.</option>
+                            <option value={"Gaming"}>Gaming</option>
+                        </select>
+                    </div>
+                    <div className="row">
+                        <ChatRoom roomId={roomId}/>
+                    </div>
                 </div>
-                <div className="row">
-                    { mountComponent && <ChatRoom roomId={roomId}/> }
-                </div>
-            </div>
+            }
         </div>
     </section>
 }
