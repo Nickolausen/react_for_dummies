@@ -30,3 +30,7 @@ Naming convention Regole per la scrittura di markup in JSX, regole per la scritt
 Progetto "React Examples": Rendering condizionale, Event handling, Stato di un componente. Quando normali variabili non bastano: introduzione agli Hook con `useState()`. Come identificare uno stato, componenti con più stati. Lo stato è privato e isolato. "_Replace rather than mutate_": gestione di array e oggetti come elementi di stato. Stile di un componente: inline e tramite moduli. Sincronizzazione di un componente: lifecycle nei componenti classe vs. componenti funzionali, come gestire le tre fasi di vita di un componente —— nascita, aggiornamento e morte. Utilizzo di `useEffect()` per sincronizzare un componente con un servizio esterno.
 
 Thinking in React: i 5 passi necessari per strutturare una web application in React.
+
+---
+#### [3] Routing
+React: progettazione di S.P.A. di default. Routing non supportato nativamente. `react-router-dom`: libreria esterna per gestire il routing di una web app React.
