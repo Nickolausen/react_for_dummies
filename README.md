@@ -4,7 +4,7 @@
 ### Informazioni tecniche
 - Corso STEM;
 - 10h totali, suddivise in 4 lezioni pomeridiane di 2.5h ciascuna;
-- tenuto da: Nicholas Magi, <nicholas.magi24[@]gmail.com>
+- tenuto da: Nicholas Magi, <nicholas.magi24[at]gmail.com>
 
 ### Contenuti del corso
 ---
@@ -26,5 +26,7 @@ Installazione di Bootstrap via npm.
 Componenti **funzionali** in React: JSX - JavaScript eXtension, mix di linguaggio markup e codice JavaScript. 
 
 Naming convention Regole per la scrittura di markup in JSX, regole per la scrittura di JavaScript in JSX, passaggio di Props da componente padre a componente figlio. 
+
+Progetto "React Examples": Rendering condizionale, Event handling, Stato di un componente. Quando normali variabili non bastano: introduzione agli Hook con `useState()`. Come identificare uno stato, componenti con più stati. Lo stato è privato e isolato. "_Replace rather than mutate_": gestione di array e oggetti come elementi di stato. Stile di un componente: inline e tramite moduli. Sincronizzazione di un componente: lifecycle nei componenti classe vs. componenti funzionali, come gestire le tre fasi di vita di un componente —— nascita, aggiornamento e morte. Utilizzo di `useEffect()` per sincronizzare un componente con un servizio esterno.
 
 Thinking in React: i 5 passi necessari per strutturare una web application in React.
