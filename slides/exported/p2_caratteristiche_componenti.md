@@ -2,7 +2,7 @@
 >-  **React for Dummies**, I.T.T. "Blaise Pascal" @ Cesena, IT
 >- Written by: Nicholas Magi - <nicholas.magi24[@]gmail.com>
 
-## 2.1 Component Lifecycle
+## (2.1) Component Lifecycle
 In older React versions you would have designed a component as a **class**. You would have extended a `React.Component` class in your custom component in order to have all the common properties a React component has. This approach has its pros and cons and particular features, like an **explicit lifecycle management**. 
 
 A **class component** lifecycle is made of 3 phases - which determine the **birth**, **update** and **death** of the component. These are:
@@ -34,7 +34,7 @@ useEffect(() => {...}, [yourDependency])
 useEffect(() => { return () => {...} })
 ```
 
-## 2.2 Conditional Rendering
+## (2.2) Conditional Rendering
 A component can be rendered according to a specific boolean condition. There are 3 possible ways to do it:
 
 1) With **If statements**
@@ -43,7 +43,7 @@ A component can be rendered according to a specific boolean condition. There are
 
 Check all the examples in `React-Examples` project.
 
-## 2.3 Events Handling
+## (2.3) Events Handling
 HTML tags can register some events listener, like a button click (`onClick()`) or a form submit (`onSubmit()`). There are 3 possible ways to handle an event:
 
 1) Declaring an event handler - must be **inside** the component implementation - and passing it to the corresponding event.
@@ -54,7 +54,7 @@ HTML tags can register some events listener, like a button click (`onClick()`) o
 
 Check all the examples in `React-Examples` project.
 
-## 2.4 State: A Component's Memory
+## (2.4) State: A Component's Memory
 You have designed your static components with their beautiful UI and you want to add a bit of interactivity to them. Consider a _SimpleGallery_ component, which shows a carousel of pictures - each followed by a description. You want to animate the buttons that let the user navigate all the pictures in the carousel, which are stored in an array of objects.
 
 The most intutive approach would be to use an **index variabile** which indicates the position in the array of the picture shown, and design an **increment** and **decrement** functions associated with the corresponding buttons that, as the names suggest, increment or decrement the index variable.
@@ -68,7 +68,7 @@ However, this approach **would not work**. And there are two reasons that descri
 
 Those reasons introduce the `useState()` hook, the most important hook that manages the state of a component.
 
-### 2.4.1 `useState()` Hook
+### ((2.4.1)) `useState()` Hook
 Before talking about `useState()` you need to know the meaning of "Hook", because it's a key feature in React - and we'll use this term a lot from now on.
 > A "Hook" is just a function implemented inside the React library that lets the developer use different features of a component. 
 
@@ -100,7 +100,7 @@ Notice that we have passed `0` as parameter of `useState()`. This represents the
 > const [ something, setSomething ] = useState(...)
 > ```
 
-### 2.4.2 State characteristics
+### ((2.4.2)) State characteristics
 1) State is **local** and **isolated**: no one outside the component can see or refer to its state. You can have multiple instances of the same component in your application, and they will all have their different states.
 
 2) You can have **multiple states** inside a component - each one of them will have its variable and setter function. 
@@ -111,7 +111,7 @@ Notice that we have passed `0` as parameter of `useState()`. This represents the
 
 5) Always choose to **replace** an array or an object in a state rather than **mutate** it.
 
-## 2.5 Styling a Component
+## (2.5) Styling a Component
 There are 3 possible ways to style a component:
 
 1) **Inline styling**: as you would do in a traditional HTML tag, you'd write your styles in the `style` attribute. Useful for few and immediate styles, can get out of hand and become unreadable very quickly. Since we write JSX and not pure HTML, remember to pass an **object** containing the same CSS rules you would have written in pure CSS - but remove hyphens and use camelCase.
@@ -135,7 +135,7 @@ return <div
 
 Check all the examples in `React-Examples` project.
 
-## 2.6 Synchronizing with Effects
+## (2.6) Synchronizing with Effects
 **Effects** are some kind of event which happen during the lifecycle of a component. We introduced them in **2.1 Component Lifecycle**, where you've been left with '... _which we'll discuss later_'. Now it's time to talk about them.
 
 `useEffect()` is the second Hook we introduce, and one of the most important to keep in mind if you're willing to build a simple application — along with `useState()`.
