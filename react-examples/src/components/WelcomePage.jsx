@@ -7,7 +7,7 @@ export default function WelcomePage()
         <h2>React Course @ I.T.T. "Blaise Pascal", Cesena</h2>
         <article className="text-secondary mt-auto pb-3">
             <p>
-                <span>by <a className='text-reset fw-bold text-decoration-none' target="_blank" href="https://nicholasmagi.it">Nicholas Magi</a> —— &lt;<code className='fw-bold'>nicholas.magi24[at]gmail.com</code>&gt;</span><br/>
+                <span>by <a className='text-reset fw-bold text-decoration-none' target="_blank" href="https://nicholasmagi.it">Nicholas Magi</a> —— <code className='fw-bold'>nicholas.magi24@gmail.com</code></span><br/>
                 <span className='pt-2 d-flex flex-row justify-content-center align-items-center gap-1'><img style={{ width: "25px" }} src={githubLogo} alt="GitHub Logo" /> <a className="text-decoration-none text-reset fw-bold" href="https://www.github.com/Nickolausen/react_for_dummies">GitHub Repository</a></span>
             </p>
         </article>
